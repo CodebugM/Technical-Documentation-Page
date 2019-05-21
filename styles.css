@@ -1,0 +1,19 @@
+body {
+  background-color: #f5fbf1;
+  font-family:'PT Sans', sans-serif;
+}
+
+#main-heading {
+  color: #26baee;
+}
+
+header {
+  color: #26baee;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+footer {
+  background-color: #;
+  text-align: center;
+}
