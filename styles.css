@@ -3,6 +3,25 @@ body {
   font-family:'PT Sans', sans-serif;
 }
 
+.sidebar {
+  background-color: #26baee;
+  color: #fff;
+  height: 100%; /* full height: 100%; alternative "auto" */
+  width: 12%;
+  position: fixed; /* stays in place when scrolling */
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+}
+
+.sidebar a {
+  display: block;
+}
+
+#main-doc {
+  margin-left: 12%; /* same as the width of the sidebar */
+}
+
 #main-heading {
   color: #26baee;
 }
