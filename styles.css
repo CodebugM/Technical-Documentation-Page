@@ -4,8 +4,8 @@ body {
 }
 
 .sidebar {
-  background-color: #26baee;
-  color: #fff;
+  background-color: #393e46;
+  color: ;
   height: 100%; /* full height: 100%; alternative "auto" */
   width: 12%;
   position: fixed; /* stays in place when scrolling */
@@ -15,15 +15,38 @@ body {
 }
 
 .sidebar a {
-  display: block;
+  color: #26baee;
+  display: block; /* one line per item */
+  font-size: 22px;
+  text-decoration: none; /* removes the underlining for the links */
+  padding: 7px 8px 8px 16px;
+}
+
+.sidebar a:hover {
+  color: #fff;
+}
+
+.sidebar-heading {
+  font-weight: bold;
 }
 
 #main-doc {
   margin-left: 12%; /* same as the width of the sidebar */
 }
 
+.heading-div {
+  background-color: #393e46;
+  text-align: center;
+  padding: 4px;
+}
+
 #main-heading {
   color: #26baee;
+  font-size: 3rem;
+}
+
+.subtitle {
+  color: #fff;
 }
 
 header {
