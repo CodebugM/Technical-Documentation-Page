@@ -80,9 +80,6 @@ code,xmp {
   background-color: #eaf5ff;
 }
 
-
-
-
 footer {
   background-color: #393e46;
   color: #fff;
@@ -91,4 +88,13 @@ footer {
   position: absolute;
   right: 0;
   width: 84%; /* 100% - width of sidebar */
+}
+
+@media (max-width: 800px) {
+  
+/*   reduces the font size for menu items when the screen is 800px wide or less */
+  .sidebar a {
+    font-size: 10px;
+  }
+  
 }
